@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>न्याय हमारा अधिकार</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>न्याय हमारा अधिकार</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">होम</a></li>
+                <li><a href="#services">सेवाएँ</a></li>
+                <li><a href="#contact">संपर्क करें</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>स्वागत है</h2>
+        <p>हमारी वेबसाइट कानूनी सहायता प्रदान करने के लिए समर्पित है।</p>
+    </section>
+
+    <section id="services">
+        <h2>हमारी सेवाएँ</h2>
+        <ul>
+            <li>मुफ़्त कानूनी परामर्श</li>
+            <li>मामले की स्थिति की जानकारी</li>
+            <li>न्यायिक प्रक्रिया में सहायता</li>
+            <li>ऑनलाइन शिकायत दर्ज करें</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>संपर्क करें</h2>
+        <form id="contactForm">
+            <label for="name">नाम:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">ईमेल:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">संदेश:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">भेजें</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 न्याय हमारा अधिकार | सभी अधिकार सुरक्षित</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("धन्यवाद! आपकी जानकारी प्राप्त हो गई है।");
+});
